@@ -36,4 +36,8 @@ gulp.task('test', ['dist'], shell.task([
   'node_modules/intern/bin/intern-runner.js config=tests/intern'
 ]));
 
+gulp.task('coveralls', ['test'], shell.task([
+  'cat lcov.info | ./node_modules/coveralls/bin/coveralls.js'
+]));
+
 gulp.task('default', ['watch', 'dist', 'server']);

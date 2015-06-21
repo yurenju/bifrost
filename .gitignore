@@ -6,3 +6,4 @@ server/datasources.production.json
 mssql*
 dist
 html-report
+lcov.info
