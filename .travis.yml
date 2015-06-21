@@ -10,3 +10,5 @@ env:
   # COVERALLS_REPO_TOKEN
   - secure: JM0OBdfgqyjEEDG+Nhia/3fO7F1kqiITXQcNpjqOerMCg0C5QsXPHbS23pW5CcwiWeDR7IrHGKZCFUO1moexxFIAYV8oWDzSsnSW1nraQ1gr9MYMkTDQqNfvLZL3MiiMkywJ7ORBeBUYztLkheX/QA6MCUSqcgQnIOrMf8HraYc=
   - COVERALLS_SERVICE_NAME=travis-ci
+
+script: npm run coveralls

@@ -6,7 +6,7 @@
     "postinstall": "node node_modules/bower/bin/bower install",
     "start": "gulp",
     "test": "gulp test",
-    "coveralls": "gulp run coveralls"
+    "coveralls": "gulp coveralls"
   },
   "dependencies": {
     "async": "^0.9.0",
